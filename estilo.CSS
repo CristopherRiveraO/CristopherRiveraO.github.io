@@ -6,3 +6,7 @@ img{
 body{
     background-color:  red;
 }
+header{
+    background-color: beige;
+    float: left;
+}
