@@ -7,6 +7,9 @@
 
 img{
     width: 120px;
+    height: 75px;
+    float: left;
+    padding: 8px;;
 }
 
 body{
@@ -34,6 +37,36 @@ header{
 
 h1{
     text-align: center;
+}
+
+#container{
+    width: auto;
+    text-align: center;
+}
+
+nav{
+    background-color: azure;
+    width: 100%;
+    height: 50px;
+    clear: both;
+    display: table;
+    float: none;
+    padding: 25px 0;
+}
+
+#container a{
+    margin-left: 15px;
+    padding: 2px 0;
+    float: none;
+    text-decoration: none;
+    align-items: center;
+}
+
+a:hover{
+    color: gray;
+    background-color:lightskyblue;
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 
