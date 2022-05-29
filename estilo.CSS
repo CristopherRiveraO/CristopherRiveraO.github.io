@@ -2,6 +2,11 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 120px;
 }
 
 body{
@@ -22,8 +27,6 @@ header{
     padding: 2rem;
 }
 
-
-
 #encabezado{
     text-align: center;
     margin-top: 15px;
@@ -31,7 +34,6 @@ header{
 
 h1{
     text-align: center;
-
 }
 
 
