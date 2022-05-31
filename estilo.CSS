@@ -27,7 +27,8 @@ header{
     background-color: steelblue;
     color: white;
     align-items: center;
-    padding: 2rem;
+    width: 100%;
+    height: 100px;
 }
 
 #encabezado{
@@ -47,10 +48,7 @@ h1{
 nav{
     background-color: azure;
     width: 100%;
-    height: 50px;
-    clear: both;
-    display: table;
-    float: none;
+    height: 100px;
     padding: 25px 0;
 }
 
@@ -69,27 +67,70 @@ a:hover{
     font-weight: bold;
 }
 
+
 #principalcontent{
-    background-color: aquamarine;
+    background-color:red;
     width: 100%;
-    height: 100px;
+    height: calc(100vh - 200px);
+    display: flex;
 }
 
 #primarycontent{
-    background-color:blueviolet;
-    width: 70%;
+    background-color:lightgray;
+    width: 100%;
     height: 100%;
 }
 
-aside{
-    background-color: coral;
-    width: 25%;
-    height: 100px;
+#secondarycontent{
+    background-color:white;
+    width: 30%;
+    height: 100%;
 }
 
 footer{
-    background-color: gray;
+    background-color:beige;
     width: 100%;
     height: 100px;
+    text-align: center;
+    padding: 25px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold ;
 }
 
+p{
+    text-align: justify;
+    padding: 0 3px 0 0;
+}
+
+.content{
+    list-style-type: disc;
+    list-style-position: inside;
+    padding: 0 0 0 4px;
+}
+
+table{
+    background-color:azure;
+    text-align: left;
+    border-collapse: collapse ;
+    width: 100%;
+}
+
+th,td{
+    border: solid 1px black;
+    padding: 5;
+}
+
+thead{
+    background-color: steelblue;
+    border-bottom: solid 5px black;
+    text-align: center;
+}
+
+tr:nth-child(even){
+    background-color:lightgray;
+}
+
+tr:hover td{
+    background-color: steelblue;
+    color:white;
+}
