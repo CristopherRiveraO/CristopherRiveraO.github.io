@@ -70,9 +70,8 @@ a:hover{
 
 
 #principalcontent{
-    background-color:red;
+    background-color:beige;
     width: 100%;
-    height: calc(100vh - 200px);
     display: flex;
 }
 
@@ -80,12 +79,15 @@ a:hover{
     background-color:lightgray;
     width: 100%;
     height: 100%;
+    margin: 5px;
+    border-radius: 20px;
+    padding: 5px;
 }
 
 #secondarycontent{
     background-color:white;
     width: 30%;
-    height: 100%;
+
 }
 
 footer{
